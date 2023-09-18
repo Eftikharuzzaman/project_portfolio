@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+.container{
+    width: 960px;
+    margin: auto;
+    // background: red;
+}
+.pera{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    color: yellow;
+    font-family: 'Open Sans', sans-serif;
+}
+.title{
+    text-align: center;
+
+    h2{
+        font-family: 'Oswald', sans-serif;
+        font-size: 24px;
+        font-weight: 500;
+        color: #353535;
+        text-transform: uppercase;
+        position: relative;
+        display: inline-block;
+
+        img{
+            position: absolute;
+            left: 0;
+            bottom: 0;
+        }
+    }
+}

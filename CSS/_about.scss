@@ -1,0 +1,31 @@
+#about{
+    padding: 60px 0;
+
+    .title{
+        margin-bottom: 46px;
+    }
+    .main{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+
+        .image{
+            width: 380px;
+            // float: left;
+        }
+        .text{
+            width: 540px;
+            // float: left;
+            margin-left: 40px;
+    
+            p{
+                color: #555555;
+                margin-top: 40px;
+            }
+        }
+        span{
+            display: block;
+            margin-top: 35px;
+        }
+    }
+}

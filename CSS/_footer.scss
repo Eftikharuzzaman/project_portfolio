@@ -1,0 +1,114 @@
+#footer{
+    background: #353535;
+    padding: 20px;
+
+    .main{
+        display: flex;
+        justify-content: space-between;
+
+        .item_1{
+            width: 220px;
+            margin-right: 26.6px;
+    
+            img{
+                margin-top: 20px;
+            }
+            p{
+                color: #f1f1f1;
+                margin-top: 31px;
+                span{
+                    display: block;
+                    margin-top: 39px;
+                }
+            }
+        }
+        .item_2{
+            width: 220px;
+            margin-right: 26.6px;
+
+            .info{
+                display: flex;
+            }
+        }
+        .item_3{
+            width: 140px;
+            margin-right: 26.6px;
+
+            .ajira{
+                display: flex;
+
+                        .left{
+                            margin-right: 10px;
+                        }
+            }
+        }
+        .item_4{
+            width: 300px;
+
+            .ajira_2{
+                display: flex;
+                justify-content: space-between;
+
+                .item{
+                    width: 90px;
+                    margin-right: 15px;
+        
+                    img{
+                        width: 100%;
+                        margin-bottom: 15px;
+                    }
+                }
+            }
+        }
+        h3{
+            font-size: 16px;
+            color: #ffffff;
+            font-weight: 600;
+            text-transform: capitalize;
+            margin-bottom: 40px;
+            margin-top: 33px;
+        }
+        .footer_icons{
+            position: relative;
+            padding-left: 45px;
+            margin-bottom: 20px;
+    
+            i{
+                position: absolute;
+                left: 0;
+                top: 50%;
+                transform: translateY(-50%);
+                color: #ffffff;
+                width: 35px;
+                height: 35px;
+                line-height: 35px;
+                background: #5bc5f4;
+                border-radius: 50%;
+                text-align: center;
+            }
+        }
+        a{
+            font-size: 13px;
+            color: #f1f1f1;
+            font-weight: 400;
+            display: block;
+            margin-bottom: 10px;
+            transition: 0.4s all linear;
+    
+            &:hover{
+                color: #5bc5f4;
+            }
+        }
+    }
+    .copyright{
+        background: #555555;
+        color: #f1f1f1;
+        text-align: center;
+        padding: 16px 0;
+
+        a{
+            color: #5bc5f4;
+            display: inline-block;
+        }
+    }
+}
